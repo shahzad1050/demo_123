@@ -11,5 +11,8 @@
 #   print("aap kon")
 # names: "str" = ["shahzad","shoaib","ali"]
 # print(names[0],names[2])
-for  i in range (1,11):
- print(f" 2 * {i} = {2 * i}")
+# for  i in range (1,11):
+#  print(f" 2 * {i} = {2 * i}")
+
+for  a in range (1,11):
+    print("2 *", a,"=",2*a)   
