@@ -43,3 +43,6 @@ name: str = ["shahzad","saeed","shoiab","ali","sohaib","faisal","Aamir", "Aisha"
 ]
 for list in name:
  print(list)
+
+for i in range (1,20,3):
+     print(i)
