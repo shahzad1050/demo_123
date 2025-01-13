@@ -65,8 +65,10 @@
 # while number  <= 12:
 #   number = number + 1
 #   print(number)
+ 
 
-  
+# name = "shahzad"
+# print(name)
 # number : int = 1
 # while number  <= 12:
 #   print(number)
@@ -85,6 +87,6 @@
 # else: 
 #    print("you are fail")
 
-user_input =int (input("enter the table u want to print"))
-for i in range(1,11):
-   print(f"{user_input} x {i} = {user_input * i}") 
+# user_input =int (input("enter the table u want to print"))
+# for i in range(1,11):
+#    print(f"{user_input} x {i} = {user_input * i}") 
