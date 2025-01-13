@@ -69,6 +69,7 @@
 
 # name = "shahzad"
 # print(name)
+
 # number : int = 1
 # while number  <= 12:
 #   print(number)
@@ -90,3 +91,25 @@
 # user_input =int (input("enter the table u want to print"))
 # for i in range(1,11):
 #    print(f"{user_input} x {i} = {user_input * i}") 
+
+
+# number = 1
+# while number  <= 12:
+#   print(number)
+#   number = number + 1
+# x = 0
+# while not (1 <= x <= 100):
+#  x = int(input("enter your number"))
+# print( "valid no")
+
+# list = ["shahzad","shoiab","sajjad"]
+# for i in list:
+#    print(list[2])
+
+user_input =int (input("enter the table u want to print"))
+i = 1
+while i <= 10:
+   
+   print(f"{user_input} x {i} = {user_input * i}") 
+  
+   i = i + 1
