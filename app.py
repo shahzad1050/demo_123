@@ -79,4 +79,4 @@
 # print(k_electric == "yes k_electric " or ups != "no ups")
 # logical opp
 # or may aik value sahi hona cheyah to true hoga 
-#  and my dono value sahi hona cheyah to true hogak
+#  and my dono value sahi hona cheyah to true hoga
