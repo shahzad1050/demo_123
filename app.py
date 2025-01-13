@@ -74,9 +74,9 @@
 # if agar 
 # else warna 
 # Define the variables
-k_electric = "no k_electric"
-ups = "no ups"
-print(k_electric == "yes k_electric " or ups != "no ups")
+# _electric = "no k_electric"
+# ups = "no ups"
+# print(k_electric == "yes k_electric " or ups != "no ups")
 # logical opp
 # or may aik value sahi hona cheyah to true hoga 
-#  and my dono value sahi hona cheyah to true hoga
+#  and my dono value sahi hona cheyah to true hogak
