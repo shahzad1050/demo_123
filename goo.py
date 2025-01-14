@@ -106,10 +106,27 @@
 # for i in list:
 #    print(list[2])
 
-user_input =int (input("enter the table u want to print"))
-i = 1
-while i <= 10:
+# user_input =int (input("enter the table u want to print"))
+# i = 1
+# while i <= 10:
    
-   print(f"{user_input} x {i} = {user_input * i}") 
+#    print(f"{user_input} x {i} = {user_input * i}") 
   
-   i = i + 1
+#    i = i + 1
+
+
+# for i in range(1,11):
+#    print(f"3 x {i} = {3 * i}")
+
+#    i = 1
+# while i <= 10:
+#    print("2 x", i ,"=", 2 * i )
+
+#    i = i + 1
+
+user_input =  int (input("enter your number"))
+n = 1
+while n <= 10:
+   print(f"{user_input} x {n} = {user_input* n }")
+
+   n = n + 1
