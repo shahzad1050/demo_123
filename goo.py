@@ -147,50 +147,60 @@
 #  m [4] = "aroosh"
 #  print(z)
 
-names7 = [
-    "Aaliyah", "Aamir", "Aariz", "Abbas", "Abdul", "Abdullah", "Adeel", "Adil", "Adnan", "Afreen",
-    "Ahmad", "Ahsan", "Aisha", "Akbar", "Ali", "Alina", "Amaan", "Amina", "Amir", "Amna",
-    "Anas", "Anaya", "Areeb", "Arham", "Arif", "Arisha", "Asad", "Asif", "Asim", "Asma",
-    "Atif", "Ayesha", "Azhar", "Aziz", "Babar", "Bashir", "Bilal", "Bushra", "Danish", "Dua",
-    "Ehsan", "Eman", "Emran", "Faheem", "Faisal", "Farah", "Farhan", "Farooq", "Fatima", "Fawad",
-    "Fiza", "Ghazal", "Habib", "Hadi", "Hafsa", "Haider", "Hajra", "Hamza", "Hassan", "Hina",
-    "Hira", "Huda", "Humaira", "Hussain", "Ibrahim", "Iffat", "Ihsan", "Imran", "Inaya", "Iqra",
-    "Irfan", "Isha", "Ishaq", "Ismail", "Jameela", "Javed", "Junaid", "Kashif", "Khadija", "Khalid",
-    "Khurram", "Laiba", "Laila", "Lubna", "Madiha", "Mahira", "Mahnoor", "Maira", "Mansoor", "Maria",
-    "Maryam", "Mehreen", "Mina", "Mirza", "Moiz", "Mona", "Muhammad", "Mujtaba", "Muneeb", "Nabeel",
-    "Nadia", "Naeem", "Naila", "Naseem", "Nasir", "Nawaz", "Nazia", "Nida", "Nimra", "Noman",
-    "Noor", "Noreen", "Numan", "Omar", "Osama", "Parveen", "Qasim", "Rabia", "Rafi", "Rahim",
-    "Rania", "Rashid", "Rehan", "Rida", "Rizwan", "Saad", "Saba", "Sadia", "Saeed", "Saira",
-    "Salman", "Sami", "Samina", "Sara", "Sarfaraz", "Shabana", "Shahid", "Shahzaib", "Shakil", "Shan",
-    "Shazia", "Shehzad", "Shoaib", "Sohail", "Sonia", "Sufyan", "Suhail", "Sumaira", "Sundus", "Tabassum",
-    "Tahir", "Talha", "Tariq", "Tayyab", "Ubaid", "Umar", "Usman", "Uzair", "Uzma", "Wajid",
-    "Waleed", "Waqas", "Wasim", "Yasir", "Yousuf", "Zafar", "Zahid", "Zain", "Zara", "Zeeshan",
-    "Zoya", "Zubair", "Zunaira", "Aadil", "Aafiya", "Aahil", "Aakif", "Aala", "Aalim", "Aarib",
-    "Aasim", "Aatif", "Aayan", "Aazim", "Aban", "Abdulaziz", "Abdulkareem", "Abdullah", "Abdulrahman", "Abid",
-    "Adel", "Adham", "Adil", "Adnan", "Afra", "Aftab", "Ahad", "Ahsan", "Aiman", "Aisha",
-    "Akif", "Alaa", "Alam", "Ali", "Alina", "Amaan", "Amani", "Amara", "Amir", "Amna",
-    "Anas", "Anaya", "Areeb", "Arham", "Arif", "Arisha", "Asad", "Asif", "Asim", "Asma",
-    "Atif", "Ayesha", "Azhar", "Aziz", "Babar", "Bashir", "Bilal", "Bushra", "Danish", "Dua",
-    "Ehsan", "Eman", "Emran", "Faheem", "Faisal", "Farah", "Farhan", "Farooq", "Fatima", "Fawad",
-    "Fiza", "Ghazal", "Habib", "Hadi", "Hafsa", "Haider", "Hajra", "Hamza", "Hassan", "Hina",
-    "Hira", "Huda", "Humaira", "Hussain", "Ibrahim", "Iffat", "Ihsan", "Imran", "Inaya", "Iqra",
-    "Irfan", "Isha", "Ishaq", "Ismail", "Jameela", "Javed", "Junaid", "Kashif", "Khadija", "Khalid",
-    "Khurram", "Laiba", "Laila", "Lubna", "Madiha", "Mahira", "Mahnoor", "Maira", "Mansoor", "Maria",
-    "Maryam", "Mehreen", "Mina", "Mirza", "Moiz", "Mona", "Muhammad", "Mujtaba", "Muneeb", "Nabeel",
-    "Nadia", "Naeem", "Naila", "Naseem", "Nasir", "Nawaz", "Nazia", "Nida", "Nimra", "Noman",
-    "Noor", "Noreen", "Numan", "Omar", "Osama", "Parveen", "Qasim", "Rabia", "Rafi", "Rahim",
-    "Rania", "Rashid", "Rehan", "Rida", "Rizwan", "Saad", "Saba", "Sadia", "Saeed", "Saira",
-    "Salman", "Sami", "Samina", "Sara", "Sarfaraz", "Shabana", "Shahid", "Shahzaib", "Shakil", "Shan",
-    "Shazia", "Shehzad", "Shoaib", "Sohail", "Sonia", "Sufyan", "Suhail", "Sumaira", "Sundus", "Tabassum",
-    "Tahir", "Talha", "Tariq", "Tayyab", "Ubaid", "Umar", "Usman", "Uzair", "Uzma", "Wajid",
-    "Waleed", "Waqas", "Wasim", "Yasir", "Yousuf", "Zafar", "Zahid", "Zain", "Zara", "Zeeshan",
-    "Zoya", "Zubair", "Zunaira"
-]
-print(len(names7))
+# names7 = [
+#     "Aaliyah", "Aamir", "Aariz", "Abbas", "Abdul", "Abdullah", "Adeel", "Adil", "Adnan", "Afreen",
+#     "Ahmad", "Ahsan", "Aisha", "Akbar", "Ali", "Alina", "Amaan", "Amina", "Amir", "Amna",
+#     "Anas", "Anaya", "Areeb", "Arham", "Arif", "Arisha", "Asad", "Asif", "Asim", "Asma",
+#     "Atif", "Ayesha", "Azhar", "Aziz", "Babar", "Bashir", "Bilal", "Bushra", "Danish", "Dua",
+#     "Ehsan", "Eman", "Emran", "Faheem", "Faisal", "Farah", "Farhan", "Farooq", "Fatima", "Fawad",
+#     "Fiza", "Ghazal", "Habib", "Hadi", "Hafsa", "Haider", "Hajra", "Hamza", "Hassan", "Hina",
+#     "Hira", "Huda", "Humaira", "Hussain", "Ibrahim", "Iffat", "Ihsan", "Imran", "Inaya", "Iqra",
+#     "Irfan", "Isha", "Ishaq", "Ismail", "Jameela", "Javed", "Junaid", "Kashif", "Khadija", "Khalid",
+#     "Khurram", "Laiba", "Laila", "Lubna", "Madiha", "Mahira", "Mahnoor", "Maira", "Mansoor", "Maria",
+#     "Maryam", "Mehreen", "Mina", "Mirza", "Moiz", "Mona", "Muhammad", "Mujtaba", "Muneeb", "Nabeel",
+#     "Nadia", "Naeem", "Naila", "Naseem", "Nasir", "Nawaz", "Nazia", "Nida", "Nimra", "Noman",
+#     "Noor", "Noreen", "Numan", "Omar", "Osama", "Parveen", "Qasim", "Rabia", "Rafi", "Rahim",
+#     "Rania", "Rashid", "Rehan", "Rida", "Rizwan", "Saad", "Saba", "Sadia", "Saeed", "Saira",
+#     "Salman", "Sami", "Samina", "Sara", "Sarfaraz", "Shabana", "Shahid", "Shahzaib", "Shakil", "Shan",
+#     "Shazia", "Shehzad", "Shoaib", "Sohail", "Sonia", "Sufyan", "Suhail", "Sumaira", "Sundus", "Tabassum",
+#     "Tahir", "Talha", "Tariq", "Tayyab", "Ubaid", "Umar", "Usman", "Uzair", "Uzma", "Wajid",
+#     "Waleed", "Waqas", "Wasim", "Yasir", "Yousuf", "Zafar", "Zahid", "Zain", "Zara", "Zeeshan",
+#     "Zoya", "Zubair", "Zunaira", "Aadil", "Aafiya", "Aahil", "Aakif", "Aala", "Aalim", "Aarib",
+#     "Aasim", "Aatif", "Aayan", "Aazim", "Aban", "Abdulaziz", "Abdulkareem", "Abdullah", "Abdulrahman", "Abid",
+#     "Adel", "Adham", "Adil", "Adnan", "Afra", "Aftab", "Ahad", "Ahsan", "Aiman", "Aisha",
+#     "Akif", "Alaa", "Alam", "Ali", "Alina", "Amaan", "Amani", "Amara", "Amir", "Amna",
+#     "Anas", "Anaya", "Areeb", "Arham", "Arif", "Arisha", "Asad", "Asif", "Asim", "Asma",
+#     "Atif", "Ayesha", "Azhar", "Aziz", "Babar", "Bashir", "Bilal", "Bushra", "Danish", "Dua",
+#     "Ehsan", "Eman", "Emran", "Faheem", "Faisal", "Farah", "Farhan", "Farooq", "Fatima", "Fawad",
+#     "Fiza", "Ghazal", "Habib", "Hadi", "Hafsa", "Haider", "Hajra", "Hamza", "Hassan", "Hina",
+#     "Hira", "Huda", "Humaira", "Hussain", "Ibrahim", "Iffat", "Ihsan", "Imran", "Inaya", "Iqra",
+#     "Irfan", "Isha", "Ishaq", "Ismail", "Jameela", "Javed", "Junaid", "Kashif", "Khadija", "Khalid",
+#     "Khurram", "Laiba", "Laila", "Lubna", "Madiha", "Mahira", "Mahnoor", "Maira", "Mansoor", "Maria",
+#     "Maryam", "Mehreen", "Mina", "Mirza", "Moiz", "Mona", "Muhammad", "Mujtaba", "Muneeb", "Nabeel",
+#     "Nadia", "Naeem", "Naila", "Naseem", "Nasir", "Nawaz", "Nazia", "Nida", "Nimra", "Noman",
+#     "Noor", "Noreen", "Numan", "Omar", "Osama", "Parveen", "Qasim", "Rabia", "Rafi", "Rahim",
+#     "Rania", "Rashid", "Rehan", "Rida", "Rizwan", "Saad", "Saba", "Sadia", "Saeed", "Saira",
+#     "Salman", "Sami", "Samina", "Sara", "Sarfaraz", "Shabana", "Shahid", "Shahzaib", "Shakil", "Shan",
+#     "Shazia", "Shehzad", "Shoaib", "Sohail", "Sonia", "Sufyan", "Suhail", "Sumaira", "Sundus", "Tabassum",
+#     "Tahir", "Talha", "Tariq", "Tayyab", "Ubaid", "Umar", "Usman", "Uzair", "Uzma", "Wajid",
+#     "Waleed", "Waqas", "Wasim", "Yasir", "Yousuf", "Zafar", "Zahid", "Zain", "Zara", "Zeeshan",
+#     "Zoya", "Zubair", "Zunaira"
+# ]
+# print(len(names7))
 
-count = 0 
+# count = 0 
 
-while count < len(names7):
- print(names7[count])
+# while count < len(names7):
+#  print(names7[count])
 
- count = count + 1
+#  count = count + 1
+ 
+number : int = 100
+while number  >= 1:
+  print(number)
+  number = number - 1
+
+i = 35
+while i >= 20:
+  print(i)
+  i = i - 1 
