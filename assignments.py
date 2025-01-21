@@ -31,3 +31,22 @@ elif user_marks >= 60:
    print(" GARDE D")
 else: 
    print("you are fail")
+
+
+#  dynamic fuction
+
+def add(a,b):
+        print(a + b)
+add(7,5)        
+ 
+def multiply(a,b):
+        print(a * b)
+multiply(7,5)     
+
+def divide(a,b):
+        print(a / b)
+divide(7,5)    
+
+def subtract(a,b):
+        print(a - b)
+subtract(7,5)    
