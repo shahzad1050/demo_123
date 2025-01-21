@@ -106,15 +106,6 @@
 # for i in list:
 #    print(list[2])
 
-# user_input =int (input("enter the table u want to print"))
-# i = 1
-# while i <= 10:
-   
-#    print(f"{user_input} x {i} = {user_input * i}") 
-  
-#    i = i + 1
-
-
 # for i in range(1,11):
 #    print(f"3 x {i} = {3 * i}")
 
@@ -195,12 +186,88 @@
 
 #  count = count + 1
  
-number : int = 100
-while number  >= 1:
-  print(number)
-  number = number - 1
+# number : int = 100
+# while number  >= 1:
+#   print(number)
+#   number = number - 1
 
-i = 35
-while i >= 20:
-  print(i)
-  i = i - 1 
+# i = 35
+# while i >= 20:
+#   print(i)
+#   i = i - 1 
+ 
+# f = ("shahzad","zubair","shoiab")
+# for i in f:
+#   print(f)
+
+# name = input("enter your name")
+# age = input("your age plz")
+# location = input("your location")
+ 
+# print(f"my name is {name}, and my age is {age},and my location is {location}")
+
+
+
+            # key : value
+# my_dict = { "shahzad": 123334,"sajjad" : 232323}
+# print(my_dict) 
+# # print(my_dict["sajjad"])
+
+
+#     #  value change
+# my_dict["sajjad"]= 5454545
+# print(my_dict)
+
+
+# my_dict1 = {"name": "shahzad",
+#             "rollno" : 12345,
+#              "class": 7 ,
+#             }
+# print(my_dict1)
+
+# static fation
+# def game():
+#     print("game on hai")  
+# game()
+
+
+#  function
+
+# # return
+# a = 1
+# b = 7
+# def add():
+#     return a + b 
+# sum = add()
+# print(sum)
+
+
+# # dynamic fuction
+
+        #   parameter
+# def greet(name,age):
+#     print("salam",name)
+#         #   argument
+#     greet("shahzad",34)
+
+
+# clear my_dict2
+
+# my_dict2 = {"shahzad":3334,"shoaib":765,"almir":567}
+
+# my_dict2["almir"]= 747474
+
+# my_dict2.clear()
+# print(my_dict2)
+
+
+# remove_key
+
+# my_dict2 = {"shahzad":3334,"shoaib":765,"almir":567}
+# rem_key = my_dict2.pop("almir")
+# print("remove_key",rem_key)
+
+# def greet(name,age):
+#     print(f"welcome its your brithday {name}",)
+#     print(f"your age is {age}")
+# greet("shahzad",20)
