@@ -11,14 +11,14 @@ else: print("your have entered number wrong, only 1 and 2 is accepted")
 
 
 
-# table with for loop
+# # table with for loop
 
 user_input =int (input("enter the table u want to print"))
 for i in range(1,11):
    print(f"{user_input} x {i} = {user_input * i}") 
 
 
-# Garde
+# # Garde
 user_name = input("enter your name")
 user_marks = int (input("enter your marks"))
 if user_marks >= 90:
@@ -32,21 +32,45 @@ elif user_marks >= 60:
 else: 
    print("you are fail")
 
-
-#  dynamic fuction
+# #  dynamic fuction
 
 def add(a,b):
-        print(a + b)
-add(7,5)        
- 
+    return a + b
+sum = add(7,2)
+print (sum)
+
 def multiply(a,b):
-        print(a * b)
-multiply(7,5)     
+    return a * b
+sum = multiply(7,2)
+print(sum)
 
 def divide(a,b):
-        print(a / b)
-divide(7,5)    
+    return a / b
+sum = divide(7,2)
+print (sum)
 
 def subtract(a,b):
-        print(a - b)
-subtract(7,5)    
+    return a - b
+sum = add(7,2)
+print(sum)
+
+# calculater 
+
+num1=int(input("enter your number"))
+num2=int(input("enter your number"))
+opt = input("enter the opt:(+ - * /):")
+
+def calculater():
+    if   opt == "+":
+        return num1+num2
+    elif opt == "-":
+        return num1-num2
+    elif opt == "*":
+        return num1*num2
+    elif opt == "/":
+        return num1/num2
+    else :
+        return "invalid number"  
+
+results = calculater()
+print(results)
