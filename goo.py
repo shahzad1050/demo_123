@@ -272,5 +272,3 @@
 #     print(f"your age is {age}")
 # greet("shahzad",20)
 
-
-     

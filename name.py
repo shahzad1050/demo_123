@@ -14,7 +14,8 @@ def play():
 
 def is_win (player, oppnent):    
 
-        if player == ('r' and oppnent == 's') or (player == 's' and opponent =='p') \
-            or player == ('p' and opppnent == 'r'):
+        if player == ('r' and oppnent == 's') or (player == 's' and oppnent =='p') \
+            or player == ('p' and oppnent == 'r'):
 
-            return true
+            return True
+            
