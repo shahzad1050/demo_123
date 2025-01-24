@@ -278,7 +278,15 @@
 #           "detail":454545}
 # print(bank)
 
-def bank(name,detail,account):
- print("welcome the the bank",name,"your detail is",detail ,"your account no is", account)
+# 
 
-bank("shahzad","haji wali mohd goth",23456789)
+def g(a,b,c=7):
+   return a + b - c
+
+result=g(8,9,8)
+print(result)
+
+def bank(name,password,accountno = 232323):
+        print(name,password,accountno)
+
+bank("shahzad",123456)
