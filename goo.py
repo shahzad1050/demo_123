@@ -272,3 +272,13 @@
 #     print(f"your age is {age}")
 # greet("shahzad",20)
 
+
+# bank = {"name":87698368,
+#         "account":343434, 
+#           "detail":454545}
+# print(bank)
+
+def bank(name,detail,account):
+ print("welcome the the bank",name,"your detail is",detail ,"your account no is", account)
+
+bank("shahzad","haji wali mohd goth",23456789)
