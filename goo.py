@@ -280,13 +280,42 @@
 
 # 
 
-def g(a,b,c=7):
-   return a + b - c
+# def g(a,b,c=7):
+#    return a + b - c
 
-result=g(8,9,8)
+# result=g(8,9,8)
+# print(result)
+
+# def bank(name,password,accountno = 232323):
+#         print(name,password,accountno)
+
+# bank("shahzad",123456)
+
+# a = 10
+# b = 20
+# result=(a<=b)
+# print(result)
+
+# def find(arr):
+#     minn,mixx = arr[0], arr[0]
+#     for num in arr[1:]:
+#         if num < minn:
+#            minn = num
+#         elif num > mixx:
+#            mixx = num
+#     return minn, mixx
+
+# array = [4,10,40,1,5,9,2,6,3,5,]
+# minn, mixx =find(array) 
+# print(minn,mixx)
+
+# default parameters
+ 
+def g(a, b, c=6):
+    return a + b +c
+result = g(6,7,)    
 print(result)
 
-def bank(name,password,accountno = 232323):
-        print(name,password,accountno)
 
-bank("shahzad",123456)
+
+# string mathods
