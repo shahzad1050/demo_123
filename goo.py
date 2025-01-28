@@ -364,43 +364,66 @@
 
 # string methods
 
-baloch = "hi  i m shahzad. i live in karachi. i m born in dubai "
-print(baloch)
-print(baloch.capitalize())
-print(baloch.count("i"))
-print(len(baloch))
-print(baloch.casefold())
-print(baloch.find("i"))
-print(baloch.index("m"))
-print(baloch.replace("shahzad","shoaib").upper())
+# baloch = "hi  i m shahzad. i live in karachi. i m born in dubai "
+# print(baloch)
+# print(baloch.capitalize())
+# print(baloch.count("i"))
+# print(len(baloch))
+# print(baloch.casefold())
+# print(baloch.find("i"))
+# print(baloch.index("m"))
+# print(baloch.replace("shahzad","shoaib").upper())
 
 
-# list methods
+# # list methods
 
-baloch2 = ["shahzad","shoaib","sajjad","almir"]
-print(baloch2)
-baloch2.append("irham")
-baloch2.pop()
-baloch2.insert(3,"ali",)
-baloch2.reverse()
-baloch3 = ["obaid"]
-baloch2.extend(baloch3,)
-baloch2.remove("shahzad")
-baloch2.sort()
-baloch2_copy = baloch2.copy()
-baloch2.clear()
-baloch3.clear()
-print(baloch2,baloch3)
-print(baloch2_copy)  # Output: ["shahzad", "shoaib", "sajjad", "almir"]
+# baloch2 = ["shahzad","shoaib","sajjad","almir"]
+# print(baloch2)
+# baloch2.append("irham")
+# baloch2.pop()
+# baloch2.insert(3,"ali",)
+# baloch2.reverse()
+# baloch3 = ["obaid"]
+# baloch2.extend(baloch3,)
+# baloch2.remove("shahzad")
+# baloch2.sort()
+# baloch2_copy = baloch2.copy()
+# baloch2.clear()
+# baloch3.clear()
+# print(baloch2,baloch3)
+# print(baloch2_copy)  # Output: ["shahzad", "shoaib", "sajjad", "almir"]
 
-my_dict5 = {"shahzad":6767,
-            "faraz":9898,
-            "jani":4545,
-            "aleem":1212,
-}
-print(my_dict5.get("faraz"))
-print(my_dict5.keys())
-print(my_dict5.items())
-print(my_dict5.values())
-print(my_dict5.pop("shahzad"))
-print(my_dict5.clear())
+# my_dict5 = {"shahzad":6767,
+#             "faraz":9898,
+#             "jani":4545,
+#             "aleem":1212,
+# }
+# print(my_dict5.get("faraz"))
+# print(my_dict5.keys())
+# print(my_dict5.items())
+# print(my_dict5.values())
+# print(my_dict5.pop("shahzad"))
+# print(my_dict5.clear())
+
+#  we can somthing in tuple
+
+# tuple = ("shoaib", "ali nawaz", "ali murtaza")
+# print(tuple)
+# new_tuple = tuple + ("zuhaib",)
+# print(new_tuple)
+
+# for f in range(1,30):
+#         print(f)
+
+# g = 1
+# while g <= 10:
+#  print(g)
+#  g = g + 1
+# print (g)
+
+def greet(name,age,city):
+        print(f"my friend name is {name}")
+        print(f"he live in {city}")
+        print(f"his age is {age}")
+greet("faraz",35,"newyork")
+
