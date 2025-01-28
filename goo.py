@@ -311,11 +311,96 @@
 
 # default parameters
  
-def g(a, b, c=6):
-    return a + b +c
-result = g(6,7,)    
-print(result)
+# def g(a, b, c=6):
+#     return a + b +c
+# result = g(6,7,)    
+# print(result)
 
 
 
-# string mathods
+# string methods
+# method is builtin fuction in python
+
+# name ="my name is shahzad i live in pakistan"
+# print(name.capitalize())
+# print(name.count("h"))
+# print(len(name))
+# print(name.find("my"))
+# print(name.index("my"))
+# print(name.replace("pakistan","england").upper())
+
+
+# list methods
+
+# list=["shahzad""almir"]
+
+# list.append("shoaib")
+# list.insert(0,"sajjad")
+# list.reverse()
+# list.pop(0) 
+# list.remove("shahzad")
+# assending and dessending
+# list.sort()
+# # extend list update list 
+# list.extend()
+
+
+# dictionary methods
+
+# get()
+# print(my_dict.get(name))
+# keys()
+# print(my_dict.keys())
+# values()
+# print(my_dict.values())
+# items()
+# print(my_dict.items()) print in tuple form
+# update()
+
+# clear()
+# print(my_dict.clear())
+# pop()
+# print(my_dict.pop(use key))
+
+# string methods
+
+baloch = "hi  i m shahzad. i live in karachi. i m born in dubai "
+print(baloch)
+print(baloch.capitalize())
+print(baloch.count("i"))
+print(len(baloch))
+print(baloch.casefold())
+print(baloch.find("i"))
+print(baloch.index("m"))
+print(baloch.replace("shahzad","shoaib").upper())
+
+
+# list methods
+
+baloch2 = ["shahzad","shoaib","sajjad","almir"]
+print(baloch2)
+baloch2.append("irham")
+baloch2.pop()
+baloch2.insert(3,"ali",)
+baloch2.reverse()
+baloch3 = ["obaid"]
+baloch2.extend(baloch3,)
+baloch2.remove("shahzad")
+baloch2.sort()
+baloch2_copy = baloch2.copy()
+baloch2.clear()
+baloch3.clear()
+print(baloch2,baloch3)
+print(baloch2_copy)  # Output: ["shahzad", "shoaib", "sajjad", "almir"]
+
+my_dict5 = {"shahzad":6767,
+            "faraz":9898,
+            "jani":4545,
+            "aleem":1212,
+}
+print(my_dict5.get("faraz"))
+print(my_dict5.keys())
+print(my_dict5.items())
+print(my_dict5.values())
+print(my_dict5.pop("shahzad"))
+print(my_dict5.clear())
