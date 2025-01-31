@@ -94,3 +94,12 @@ def calculater():
 
 results = calculater()
 print(results)
+
+
+user_input = input("enter your number")
+
+try:
+   for i in range(1,11):
+     print(f"{int(user_input)} x {i} = {int(user_input * i)}")
+except Exception as f:
+ print(f)
