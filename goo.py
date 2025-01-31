@@ -427,17 +427,17 @@
 #         print(f"his age is {age}")
 # greet("faraz",35,"newyork")
 
-import time
+# import time
 
-def timer(time_sec):
-    while time_sec:
-        hours,remainder = divmod(time_sec,3600)
-        mins,sec = divmod(remainder,60)
-        timeformat = "{:02d}: {:02d}: {:02d}".format(hours,mins, sec)
-        (min,sec)
-        print(timeformat, end="\r")
-        time.sleep(1)
-        time_sec -= 1
-    print("stop")
+# def timer(time_sec):
+#     while time_sec:
+#         hours,remainder = divmod(time_sec,3600)
+#         mins,sec = divmod(remainder,60)
+#         timeformat = "{:02d}: {:02d}: {:02d}".format(hours,mins, sec)
+#         (min,sec)
+#         print(timeformat, end="\r")
+#         time.sleep(1)
+#         time_sec -= 1
+#     print("stop")
 
-timer(10)
+# timer(10)
