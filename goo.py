@@ -442,44 +442,56 @@
 
 # timer(10)
 
-story = "my name is shahzad. i live in pakistan"
-print(story.replace("shahzad","shoiab"))
-print(story.find("my"))
-print(story.capitalize())
-print(story.count("my"))
-print(story.casefold())
-print(len(story))
 
-list = ["shahzad","zubaib","shoaib"]
-list.insert(0,"ali")
-list.append("faisal")
-list.reverse()
-list.pop()
-list.remove("shahzad")
-list.clear()
-list2 = ["noor"]
-list.extend(list2)
-list.sort()
-list3 = [1,9,6,8,5,2,4]
-list3.sort(reverse=True)
-print(list)
+#  string methods
+
+# story = "my name is shahzad. i live in pakistan"
+# print(story.replace("shahzad","shoiab"))
+# print(story.find("my"))
+# print(story.capitalize())
+# print(story.count("my"))
+# print(story.casefold())
+# print(len(story))
+
+
+# list methods
+
+# list = ["shahzad","zubaib","shoaib"]
+# list.insert(0,"ali")
+# list.append("faisal")
+# list.reverse()
+# list.pop()
+# list.remove("shahzad")
+# list.clear()
+# list2 = ["noor"]
+# list.extend(list2)
+# list.sort()
+# list3 = [1,9,6,8,5,2,4]
+# list3.sort(reverse=True)
+# print(list)
  
-dict = {"name":"shahzad",
-         "age":40,
-         "city":"karachi"
-         }
 
-print(dict.get("name"))
-print(dict.keys())
-print(dict.values())
-# print(dict.pop("age"))
-print(dict.items())
-dict1 = {"country":"paistan"}
-dict1.update(dict)
-print(dict1)
+# dict methods 
 
-tuple = ("shahzad","shoaib","shahzad","shahzad")
-new_tuple = tuple  + ("shiraz",)
-print(tuple.count("shahzad"))
-print(tuple.index("shahzad"))
-print(new_tuple)
+# dict = {"name":"shahzad",
+#          "age":40,
+#          "city":"karachi"
+#          }
+
+# print(dict.get("name"))
+# print(dict.keys())
+# print(dict.values())
+# # print(dict.pop("age"))
+# print(dict.items())
+# dict1 = {"country":"paistan"}
+# dict1.update(dict)
+# print(dict1)
+
+
+# tuple methods
+
+# tuple = ("shahzad","shoaib","shahzad","shahzad")
+# new_tuple = tuple  + ("shiraz",)
+# print(tuple.count("shahzad"))
+# print(tuple.index("shahzad"))
+# print(new_tuple)
