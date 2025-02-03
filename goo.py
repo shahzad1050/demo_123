@@ -473,7 +473,7 @@
 
 # dict methods 
 
-# dict = {"name":"shahzad",
+# dict1 = {"name":"shahzad",
 #          "age":40,
 #          "city":"karachi"
 #          }
@@ -483,8 +483,8 @@
 # print(dict.values())
 # # print(dict.pop("age"))
 # print(dict.items())
-# dict1 = {"country":"paistan"}
-# dict1.update(dict)
+# dict2 = {"country":"paistan"}
+# dict1.update(dict2)
 # print(dict1)
 
 
