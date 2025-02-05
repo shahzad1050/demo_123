@@ -495,3 +495,38 @@
 # print(tuple.count("shahzad"))
 # print(tuple.index("shahzad"))
 # print(new_tuple)
+
+
+
+
+# try:
+#    user_input = int (input("enter your number"))
+#    for i in range(1,11):
+#      print(f"{(user_input)} x {i} = {(user_input * i)}")
+# except ValueError:
+#  print("please enter a valid number")
+
+# try:
+#  balance = 55.0
+#  deposit = int (input( "enter your ammount"))
+#  z = balance + deposit
+#  print(f"your balance is {z}")
+# except:
+#  print("u have enter invalid number please enter correct number")
+
+ #  bank acoount 
+
+print("welcome to the xyz bank")
+user_id = input("enter your user id ")
+password =  int (input("enter your password"))
+balance = 100
+if user_id == "shah1234" and password == 12345:
+  print (f" welcome Shahzad your account balance is {balance}$")
+else:
+  print ("invalid user_id and password") 
+
+print("if u what to deposit enter you ammount ")
+
+deposit = int(input("enter you amount"))
+z = deposit + balance
+print (f"your balance is {z}$" )
