@@ -516,17 +516,20 @@
 
  #  bank acoount 
 
-print("welcome to the xyz bank")
-user_id = input("enter your user id ")
-password =  int (input("enter your password"))
-balance = 100
-if user_id == "shah1234" and password == 12345:
-  print (f" welcome Shahzad your account balance is {balance}$")
-else:
-  print ("invalid user_id and password") 
+try:
+   print("welcome to the xyz bank")
+   user_id = input("enter your user id ")
+   password =  int (input("enter your password"))
+   balance = 100
 
-print("if u what to deposit enter you ammount ")
+   if  user_id == "shah1234" and password == 12345:
+        print (f" welcome Shahzad your account balance is {balance}$")
 
-deposit = int(input("enter you amount"))
-z = deposit + balance
-print (f"your balance is {z}$" )
+        print("if u what to deposit enter you ammount ")
+        deposit = int(input("enter you amount"))
+        z = deposit + balance
+        print (f"your balance is {z}$" )
+   else: 
+        print( "invalid user_id and password")
+except Exception as error:
+     print(error)
