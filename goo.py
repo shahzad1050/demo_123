@@ -516,20 +516,105 @@
 
  #  bank acoount 
 
-try:
-   print("welcome to the xyz bank")
-   user_id = input("enter your user id ")
-   password =  int (input("enter your password"))
-   balance = 100
+# try:
+#    print("welcome to the xyz bank")
+#    user_id = input("enter your user id ")
+#    password =  int (input("enter your password"))
+#    balance = 100
 
-   if  user_id == "shah1234" and password == 12345:
-        print (f" welcome Shahzad your account balance is {balance}$")
+#    if  user_id == "shah1234" and password == 12345:
+#         print (f" welcome Shahzad your account balance is {balance}$")
 
-        print("if u what to deposit enter you ammount ")
-        deposit = int(input("enter you amount"))
-        z = deposit + balance
-        print (f"your balance is {z}$" )
-   else: 
-        print( "invalid user_id and password")
-except Exception as error:
-     print(error)
+#         print("if u what to deposit enter you ammount ")
+#         deposit = int(input("enter you amount"))
+#         z = deposit + balance
+#         print (f"your balance is {z}$" )
+#    else: 
+#         print( "invalid user_id and password")
+# except Exception as error:
+#      print(error)
+
+# set methods
+
+# name_set = {"shahzad"," shoiab","shoaib","junaid","junaid","zobi"}
+# name_set1 = {"shab","kalo"}
+# # name_set.add("ali",)
+# # name_set.clear()
+# name_set.discard("shoaib")
+# result = name_set.union(name_set1)
+# name_set.pop()
+# re = name_set.intersection(name_set1)
+# print(result)
+# s1 = {1,2,3}
+# s2 = {3,4,5}
+# result =s1.intersection(s2)
+# result1 = s1.union(s2)
+# print(result1)
+
+# def faction(name,age,city):
+#  """faction use"""
+#  print(f"my name is {name} my age is {age}  my city is {city}")
+
+# faction("shahzad",20,"karachi")
+# print(faction.__doc__)
+
+# global variable
+
+# x = 5
+# print(x)
+
+# def z():
+#   global x
+#   x = 10
+#   print(x)
+# z()
+# print(x)
+
+# string k methods
+
+# g = ("my name is SHAHZAD. i live in pakistan ")
+# print(g.capitalize())
+# print(g.find("my"))
+# print(g.index("pakistan"))
+# print(g.lower())  
+
+# list methods
+
+# name  = ["madrid","manchester","arsenal"]
+# name.append("chelsea")
+# print(name.index("chelsea"))
+# name.pop(0)
+# name.remove("manchester")
+# name.clear()
+# name.reverse()
+# print(name)
+
+# dict methods 
+
+# dict = {"name":"almir","rollno":23,"city":"karachi"}
+#  print(dict.get("name"))
+#  print(dict.items())
+#  print(dict.keys())
+#  print(dict.values())
+#  print(dict.pop("rollno"))
+#  dict1 = {"mulk":"pakistan"}
+#  dict.update(dict1)
+# print(dict)
+
+# tuple methods
+
+# tuple = (1,2,3,4,3,3,3)
+# print(tuple.count(3))
+# print(tuple.index(3))
+# print(tuple)
+ 
+#  set methods
+# set1 = {"ball","bat","football"}
+# set1.add("fish")
+# set1.discard("fish")
+#  set1.pop()
+# set1.clear()
+# set2 = {"fish","dog","football"}
+# # print(set1.union(set2))
+# result = set1.intersection(set2)
+# print(result)
