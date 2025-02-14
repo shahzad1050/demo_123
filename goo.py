@@ -620,30 +620,37 @@
 # print(result)
 
 
-try:
-    print("Welcome to the XYZ Bank")
-    user_id = input("Enter your user ID: ")
-    password = int(input("Enter your password: "))
+# try:
+#     print("Welcome to the XYZ Bank")
+#     user_id = input("Enter your user ID: ")
+#     password = int(input("Enter your password: "))
 
-    balance = 100
+#     balance = 100
 
-    if user_id == "shah1234" and password == 12345:
-        print(f"For menu press 1")
-        menu = int(input())
-        if menu == 1:
-            print("Menu")
-            print(f"Press 2 for deposit")
-            deposit_option = int(input())
-            if deposit_option == 2:
-                print(f"Welcome Shahzad, your account balance is {balance}$")
-                deposit = int(input("Enter your deposit amount: "))
-                balance += deposit
-                print(f"Your new balance is {balance}$")
-            else:
-                print("Invalid option")
-        else:
-            print("Invalid menu option")
-    else:
-        print("Invalid user ID or password")
-except Exception as error:
-    print(error)
+#     if user_id == "shah1234" and password == 12345:
+#         print(f"For menu press 1")
+#         menu = int(input())
+#         if menu == 1:
+#             print("Menu")
+#             print(f"Press 2 for deposit")
+#             deposit_option = int(input())
+#             if deposit_option == 2:
+#                 print(f"Welcome Shahzad, your account balance is {balance}$")
+#                 deposit = int(input("Enter your deposit amount: "))
+#                 balance += deposit
+#                 print(f"Your new balance is {balance}$")
+#             else:
+#                 print("Invalid option")
+#         else:
+#             print("Invalid menu option")
+#     else:
+#         print("Invalid user ID or password")
+# except Exception as error:
+#     print(error)
+
+# class person:
+#     id = 478
+#     name = "shahzad"
+#     salary = 34
+#     print(f"{id} and {name} and {salary}")
+# person()
