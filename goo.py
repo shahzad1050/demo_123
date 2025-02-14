@@ -651,6 +651,21 @@
 # class person:
 #     id = 478
 #     name = "shahzad"
-#     salary = 34
-#     print(f"{id} and {name} and {salary}")
+#     salary = 30
 # person()
+# print(person.id)
+
+
+class house:
+    adress:str 
+    numbers_of_doors:int = 4
+    number_of_rooms:int = 6
+
+    def __init__(self, adress:str):
+     self.adress = adress
+   
+shahzad_house = house("house no 123")
+shoaib_house = house("house no 321")
+           
+print(shahzad_house.adress)
+print(shoaib_house.adress)
