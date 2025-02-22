@@ -656,16 +656,63 @@
 # print(person.id)
 
 
-class house:
-    adress:str 
-    numbers_of_doors:int = 4
-    number_of_rooms:int = 6
+# class house:
+#     adress:str 
+#     numbers_of_doors:int = 4
+#     number_of_rooms:int = 6
 
-    def __init__(self, adress:str):
-     self.adress = adress
+#     def __init__(self, adress:str):
+#      self.adress = adress
    
-shahzad_house = house("house no 123")
-shoaib_house = house("house no 321")
+# shahzad_house = house("house no 123")
+# shoaib_house = house("house no 321")
            
-print(shahzad_house.adress)
-print(shoaib_house.adress)
+# print(shahzad_house.adress)
+# print(shoaib_house.adress)
+
+
+# numbers = [1, 2, 3, 4, 5, 7]
+
+# def square(a: int):
+#     return a * a 
+
+# new = list(map(square, numbers))
+
+# print(new)  # Output: [1, 4, 9, 16, 25, 49]
+
+
+# from functools import reduce
+# def add(x,y):
+#     return x * y
+
+# d =[1,2,3,4,5,6]
+# sum = reduce(add,d)
+# print(sum)
+
+
+# marks = [77,97,64,85,55]
+
+# def grade(marks):
+#     if marks >= 90:
+#      return "A"
+#     elif 80 <= marks  < 90:
+#      return "B"
+#     elif 70 <= marks < 80:
+#      return "C"
+#     else:
+#      return "fail"
+
+# grades =list(map(grade,marks))
+
+
+# print(marks)
+# print(grades)
+
+l = [7, 2, 5, 1, 6, 7, 8]
+
+def m(value):
+    return value <= 2 
+
+g = list(filter(m, l))
+print(g)
+
