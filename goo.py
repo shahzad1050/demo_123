@@ -711,8 +711,33 @@
 l = [7, 2, 5, 1, 6, 7, 8]
 
 def m(value):
-    return value <= 2 
+    return value <= 6
 
 g = list(filter(m, l))
 print(g)
+
+
+# from functools import reduce
+ 
+# fst = [1,2,3,4,5,6]
+# def add (num, num1):
+#    return num + num1
+# print(reduce(add,fst))
+
+from functools import reduce
+lst = [1,2,3,4,5,6,]
+def d (a ,b):
+   return a + b 
+
+print(reduce(d,lst))
+
+l = [7, 2, 5, 1, 6, 7, 8]
+
+def m(value):
+    return value + 3
+
+g = list(map(m, l))
+print(g)
+
+
 
