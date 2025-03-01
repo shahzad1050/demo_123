@@ -708,36 +708,73 @@
 # print(marks)
 # print(grades)
 
-l = [7, 2, 5, 1, 6, 7, 8]
+# l = [7, 2, 5, 1, 6, 7, 8]
 
-def m(value):
-    return value <= 6
+# def m(value):
+#     return value <= 6
 
-g = list(filter(m, l))
-print(g)
+# g = list(filter(m, l))
+# print(g)
 
+
+# # from functools import reduce
+ 
+# # fst = [1,2,3,4,5,6]
+# # def add (num, num1):
+# #    return num + num1
+# # print(reduce(add,fst))
+
+# from functools import reduce
+# lst = [1,2,3,4,5,6,]
+# def d (a ,b):
+#    return a + b 
+
+# print(reduce(d,lst))
+
+# l = [7, 2, 5, 1, 6, 7, 8]
+
+# def m(value):
+#     return value + 3
+
+# g = list(map(m, l))
+# print(g)
+
+# d = [1,2,3,4,5,6,7]
+
+# def z(value):
+#     return value + 3 
+# f = list(map(z,d))
+# print(f)
+
+# numbers = [2,4,6,8,9]
+
+# def d (num : int):
+#   return num < 3
+# s = list(filter(d,numbers))
+# print(s)
+ 
+
+# numbers = [1,2,3,4,5,6,7]
+
+# def mamp(num : int):
+#     return num < 4
+# s = list(map(mamp,numbers))
+# print(s)
 
 # from functools import reduce
  
-# fst = [1,2,3,4,5,6]
-# def add (num, num1):
-#    return num + num1
-# print(reduce(add,fst))
+# lists =  [1,2,4,5,6,7,8,9]
+# def re(a , b):
+#     return a + b 
 
-from functools import reduce
-lst = [1,2,3,4,5,6,]
-def d (a ,b):
-   return a + b 
+# print(reduce(re,lists))
 
-print(reduce(d,lst))
+# lists = [1,2,3,4,5,6,7]
 
-l = [7, 2, 5, 1, 6, 7, 8]
+# re = list(map(lambda p: p  + 2,lists))
+# print (re)
 
-def m(value):
-    return value + 3
+# lists = [1,2,3,4,5,6,7]
 
-g = list(map(m, l))
-print(g)
-
-
-
+# re = list(filter(lambda x: x % 2 == 0, lists))
+# print(re)
