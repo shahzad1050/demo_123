@@ -778,3 +778,13 @@
 
 # re = list(filter(lambda x: x % 2 == 0, lists))
 # print(re)
+
+
+#   recursion function
+# def show(a):
+#     if(a == 0):
+#        return
+#     show(a-1)
+#     print(a)
+# show(10)
+    
